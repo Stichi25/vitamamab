@@ -1,0 +1,9 @@
+@import "bourbon";
+.sprite-age, .sprite-good, .sprite-eco,
+.sprite-hand, .sprite-flower{
+  @include background-image(url("../img/result.png") no-repeat);
+  display: inline-block;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
